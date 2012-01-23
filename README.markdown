@@ -27,7 +27,14 @@ Feel free to submit requests for features or patches.
 
 History of Changes
 ==================
-4	v1.3	01/22/12 	Support for Android 3.x added; open sourced via GitHub
-3 	v1.2 	01/22/12	App rewritten as a real Android native app, dumping the AppInventor code; support for Android 4.0 added
-2 	v1.1 	12/01/11	Minor manifest changes to narrow down the range of eligible devices
-1 	v1.0 	12/01/11	First release
+v1.3 (4) - 01/22/12
+Support for Android 3.x added; open sourced via GitHub
+
+v1.2 (3) - 01/22/12
+App rewritten as a real Android native app, dumping the AppInventor code; support for Android 4.0 added
+
+v1.1 (2) - 12/01/11
+Minor manifest changes to narrow down the range of eligible devices
+
+v1.0 (1) - 12/01/11
+First release
