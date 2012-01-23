@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffffffff" android:gravity="center_horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/step1text" />
+    <Button android:id="@id/buttonMain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/buttonText" />
+    <TextView android:textColor="#ffffffff" android:gravity="center_horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/helpText" />
+</LinearLayout>

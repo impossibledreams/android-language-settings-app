@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Language Settings App</string>
+    <string name="step1text">"This simple application provides access to the input language settings for your device's keyboard."</string>
+    <string name="buttonText">Click here to open language settings</string>
+    <string name="helpText">Source code for this app is available online at https://github.com/shaftekbiz/android-language-settings-app. Comments are welcome to android-dev@shaftek.biz</string>
+</resources>
