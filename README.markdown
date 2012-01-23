@@ -16,17 +16,9 @@ Feedback and comments should be directed via [email](mailto:android-dev@shaftek.
 Known Issues
 ------------
 On the Kindle Fire, even though there are many languages available, only the following
-languages actually work: 
-*   Danish
-*   English UK
-*   English US
-*   French
-*   German
-*   Hebrew
-*   Norwegian
-*   Russian
-*   Serbian
-*   Swedish
+languages actually work:
+Danish, English UK, English US, French, German, Hebrew, Norwegian, 
+Russian, Serbian and Swedish.
 
 For Developers:
 ---------------
