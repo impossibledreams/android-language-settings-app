@@ -4,7 +4,10 @@ This is a simple Android application that allows you to access the built in sett
 The primary motivation for creation of this app was the fact that the Kindle Fire does not allow you to select languages while including the secret settings
 panel deep inside their code. Some other manufacturers appear to have done the same.
 
-This app has been tested on Android 2.2, 2.3, 3.2, and 4.0.
+Full credit goes to [Gero Zahn](http://blog.gerozahn.de/2011/11/kindle-fire-keyboard-layouts-solved/) who was the first person who discovered
+the "hidden settings panel" for languages in the Kindle Fire.
+
+Many thanks to the users who have tried this app out and provided valuable feedback.
 
 For Users:
 ----------
@@ -15,6 +18,8 @@ Feedback and comments should be directed via [email](mailto:android-dev@shaftek.
 
 Known Issues
 ------------
+This app has been tested on Android 2.2, 2.3, 3.2, and 4.0.
+
 On the Kindle Fire, even though there are many languages available, only the following
 languages actually work:
 Danish, English UK, English US, French, German, Hebrew, Norwegian, 
@@ -22,6 +27,7 @@ Russian, Serbian and Swedish.
 
 For Developers:
 ---------------
+Background information about this app can be found on [my blog](http://www.shaftek.org/blog/2011/12/03/enabling-other-languages-on-amazons-new-kindle-fire-tablet/).
 
 The original version of this app was developed via Google's AppInventor package, as of v1.2, this
 is now a native Android App. The easiest way to recompile and try this app out is to use Eclipse with Android
