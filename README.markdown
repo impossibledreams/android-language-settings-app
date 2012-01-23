@@ -13,13 +13,28 @@ you can download the APK file from [the downloads section here](https://github.c
 
 Alternatively, you can scan the following barcode to download via Google Market:
 
-![market://details?id=appinventor.ai_yakov.LanguageSettings](https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=market://details?id=appinventor.ai_yakov.LanguageSettings)
+![market://details?id=appinventor.ai_yakov.LanguageSettings](https://chart.googleapis.com/chart?cht=qr&chs=100x100&chl=market://details?id=appinventor.ai_yakov.LanguageSettings)
 
 To download from our download section, you can scan the following barcode:
 
-![http://cloud.github.com/downloads/shaftekbiz/android-language-settings-app/ls_v1.3_signed.apk](https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=https://github.com/downloads/shaftekbiz/android-language-settings-app/ls_v1.3_signed.apk)
+![http://cloud.github.com/downloads/shaftekbiz/android-language-settings-app/ls_v1.3_signed.apk](https://chart.googleapis.com/chart?cht=qr&chs=100x100&chl=https://github.com/downloads/shaftekbiz/android-language-settings-app/ls_v1.3_signed.apk)
 
 Feedback and comments should be directed via [email](mailto:android-dev@shaftek.biz) or via the GitHub bug tracker.
+
+Known Issues
+------------
+On the Kindle Fire, even though there are many languages available, only the following
+languages actually work: 
+- Danish
+- English UK
+- English US
+- French
+- German
+- Hebrew
+- Norwegian
+- Russian
+- Serbian
+- Swedish
 
 For Developers:
 ---------------
