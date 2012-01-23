@@ -17,16 +17,16 @@ Known Issues
 ------------
 On the Kindle Fire, even though there are many languages available, only the following
 languages actually work: 
-* Danish
-* English UK
-* English US
-* French
-* German
-* Hebrew
-* Norwegian
-* Russian
-* Serbian
-* Swedish
+*   Danish
+*   English UK
+*   English US
+*   French
+*   German
+*   Hebrew
+*   Norwegian
+*   Russian
+*   Serbian
+*   Swedish
 
 For Developers:
 ---------------
