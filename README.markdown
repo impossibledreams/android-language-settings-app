@@ -12,7 +12,9 @@ Many thanks to the users who have tried this app out and provided valuable feedb
 For Users:
 ----------
 The easiest way to install this app is by visiting [Google Market](https://market.android.com/details?id=appinventor.ai_yakov.LanguageSettings). Alternatively,
-you can download the APK file from [the downloads section here](https://github.com/shaftekbiz/android-language-settings-app/downloads) and install it on your device. We are also working on getting the app approved in the Amazon AppStore.
+you can download the APK file
+from [the downloads section here](https://github.com/shaftekbiz/android-language-settings-app/downloads) and install it on your device
+(download link is below the QR barcode). We are also working on getting the app approved in the Amazon AppStore.
 
 Feedback and comments should be directed via [email](mailto:android-dev@shaftek.biz) or via the GitHub bug tracker.
 
@@ -24,6 +26,9 @@ On the Kindle Fire, even though there are many languages available, only the fol
 languages actually work:
 Danish, English UK, English US, French, German, Hebrew, Norwegian, 
 Russian, Serbian and Swedish.
+
+On Kindle Fire, you may need to delete an old version of this app before reinstalling
+an updated version.
 
 For Developers:
 ---------------
