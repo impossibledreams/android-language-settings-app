@@ -26,9 +26,9 @@ public class LanguageSettingsActivity extends Activity {
   private OnClickListener mainListener = new OnClickListener() {
     public void onClick(View paramView) {
     	// Create intent
-    	Intent localIntent = new Intent("android.intent.action.MAIN");
-    	
-    	// Try 2.3 intent
+    	Intent localIntent = new Intent("android.intent.action.VIEW");
+    		    
+	    // Try 2.3 intent
 	    try {
 	        localIntent.setClassName("com.android.inputmethod.latin", "com.android.inputmethod.latin.InputLanguageSelection");
 	        LanguageSettingsActivity.this.startActivity(localIntent);

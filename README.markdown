@@ -14,7 +14,9 @@ For Users:
 The easiest way to install this app is by visiting [Google Market](https://market.android.com/details?id=appinventor.ai_yakov.LanguageSettings). Alternatively,
 you can download the APK file
 from [the downloads section here](https://github.com/shaftekbiz/android-language-settings-app/downloads) and install it on your device
-(download link is below the QR barcode). We are also working on getting the app approved in the Amazon AppStore.
+(download link is below the QR barcode). You can also install the application
+from [Amazon's AppStore for Android](http://www.amazon.com/dp/B0071LQXCK), but it has not yet been reviewed and made
+available for the Kindle Fire.
 
 Feedback and comments should be directed via [email](mailto:android-dev@shaftek.biz) or via the GitHub bug tracker.
 
