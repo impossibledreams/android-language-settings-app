@@ -6,24 +6,29 @@ Full credit goes to [Gero Zahn](http://blog.gerozahn.de/2011/11/kindle-fire-keyb
 
 Many thanks to the users who have tried this app out, provided valuable feedback and acted as beta testers.
 
-For Users:
-----------
-The easiest way to install this app is by visiting [Google Market](https://market.android.com/details?id=appinventor.ai_yakov.LanguageSettings). Alternatively, you can download the APK file from [the downloads section here](https://github.com/shaftekbiz/android-language-settings-app/downloads) and install it on your device
-(download link is below the QR barcode). As of v1.5, we are no longer offerring this app via the Amazon App Store.
+How to Install
+--------------
+The easiest way to install this app is by visiting [Google Market](https://market.android.com/details?id=appinventor.ai_yakov.LanguageSettings).
 
-Feedback and comments should be directed via [email](mailto:android-dev@shaftek.biz) or via the GitHub bug tracker.
+If your device does not have the Google Market installed (such as the case with most Kindles), you can do the following:
+
+1. Enable sideloading of third party apps as follows.
+2. On most Android devices, select the menu button from the home screen, then "Settings", "Applications".
+3. On the Kindle Fire only, tap the top right corner of your home screen, select "More", "Device".
+4. Make sure the checkbox described "Allow installation of non-Market applications" or "Allow installation of applications from unknown sources" is checked on.
+5. Download the APK file from [the downloads section here](https://github.com/shaftekbiz/android-language-settings-app/downloads) (download link is below the QR barcode).
+6. Install the app on your device by click on it in the downloads list.
+
+Feedback and comments should be directed via [email](mailto:android-dev@shaftek.biz), [our website](http://www.shaftek.biz/contact/) or via the GitHub bug tracker.
 
 Compatibility
 -------------
 This app has been tested on Android 2.2, 2.3, 3.2, 4.0.3 and 4.1. It also has been tested on Kindle Fire (1st and 2nd gen), and Kindle Fire HD.
 
-Known Issues
-------------
-On the Kindle Fire (1st gen), even though there are many languages available, only the following languages actually work:
+On the Kindle Fire (1st gen), even though there are many languages listed as available, only the following languages actually work:
 
 - Danish
-- English UK
-- English US
+- English UK/US
 - French
 - German
 - Hebrew
@@ -32,6 +37,23 @@ On the Kindle Fire (1st gen), even though there are many languages available, on
 - Serbian
 - Swedish
 
+Based on emulator testing, the following languages SHOULD be supported on the Kindle Fire (2nd gen). Please report any that do not work:
+
+- Arabic
+- Czech
+- Danish
+- English UK/US
+- Finnish
+- French and French/Switzerland
+- Hebrew
+- Norwegian
+- Russian
+- Serbian
+- Spanish
+- Swedish
+
+Known Issues
+------------
 On Kindle Fire, you may need to delete an old version of this app before reinstalling an updated version.
 
 For Developers:
