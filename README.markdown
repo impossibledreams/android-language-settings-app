@@ -13,32 +13,49 @@ The easiest way to install this app is by visiting [Google Market](https://marke
 
 Feedback and comments should be directed via [email](mailto:android-dev@shaftek.biz) or via the GitHub bug tracker.
 
-Known Issues
-------------
+Compatibility
+-------------
 This app has been tested on Android 2.2, 2.3, 3.2, 4.0.3 and 4.1. It also has been tested on Kindle Fire (1st and 2nd gen), and Kindle Fire HD.
 
-On the Kindle Fire, even though there are many languages available, only the following
-languages actually work:
-Danish, English UK, English US, French, German, Hebrew, Norwegian, 
-Russian, Serbian and Swedish.
+Known Issues
+------------
+On the Kindle Fire (1st gen), even though there are many languages available, only the following languages actually work:
+
+- Danish
+- English UK
+- English US
+- French
+- German
+- Hebrew
+- Norwegian
+- Russian
+- Serbian
+- Swedish
 
 On Kindle Fire, you may need to delete an old version of this app before reinstalling an updated version.
 
 For Developers:
 ---------------
 Background information about this app can be found on [my blog](http://www.shaftek.org/blog/2011/12/03/enabling-other-languages-on-amazons-new-kindle-fire-tablet/).
+
 The original version of this app was developed via Google's AppInventor package, as of v1.2, this is now a native Android App. The easiest way to recompile and try this app out is to use Eclipse with Android plugins.
+
 Feel free to submit requests for features or patches.
 
 Copyright Information
 ---------------------
 This program is licensed under the GPLv3 or later, see LICENSE file for more information about copyright and licensing.
+
 This program was developed by Yakov Shafranovich / Shaftek Enterprises LLC.
 
 History of Changes
 ==================
 v1.5 (5) - 10/05/2012 - Support for Kindle Fire (2nd gen) and Kindle Fire HD. Support for Android 4.0.3 (ICS) and 4.1 (JellyBean).
+
 v1.3 (4) - 01/22/2012 - Support for Android 3.x added; open sourced via GitHub
+
 v1.2 (3) - 01/22/2012 - App rewritten as a real Android native app, dumping the AppInventor code; support for Android 4.0 added
+
 v1.1 (2) - 12/01/2011 - Minor manifest changes to narrow down the range of eligible devices
+
 v1.0 (1) - 12/01/2011 - First release
