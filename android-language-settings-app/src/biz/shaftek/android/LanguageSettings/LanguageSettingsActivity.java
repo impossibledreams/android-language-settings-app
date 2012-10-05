@@ -27,17 +27,17 @@ public class LanguageSettingsActivity extends Activity {
     public void onClick(View paramView) {
     	// Create intent
     	Intent localIntent = new Intent("android.intent.action.VIEW");
-    		    
-	    // Try 2.3 intent
+
+	    // Try 4.1 intent
 	    try {
-	        localIntent.setClassName("com.android.inputmethod.latin", "com.android.inputmethod.latin.InputLanguageSelection");
+	        localIntent.setClassName("com.android.settings", "com.android.settings.inputmethod.InputMethodAndSubtypeEnabler");
 	        LanguageSettingsActivity.this.startActivity(localIntent);
 	        return;
 	    } catch (Exception e1) {}
-	    
-	    // Try 3.2 intent
+
+	    // Try 4.0.3 intent
 	    try {
-	        localIntent.setClassName("com.android.inputmethod.latin", "com.android.inputmethod.latin.INPUT_LANGUAGE_SELECTION");
+	        localIntent.setClassName("com.android.settings", "com.android.settings.inputmethod.InputMethodAndSubtypeEnablerActivity");
 	        LanguageSettingsActivity.this.startActivity(localIntent);
 	        return;
 	    } catch (Exception e2) {}
@@ -49,6 +49,20 @@ public class LanguageSettingsActivity extends Activity {
 	        return;
 	    } catch (Exception e3) {}
 	    
+	    // Try 3.2 intent
+	    try {
+	        localIntent.setClassName("com.android.inputmethod.latin", "com.android.inputmethod.latin.INPUT_LANGUAGE_SELECTION");
+	        LanguageSettingsActivity.this.startActivity(localIntent);
+	        return;
+	    } catch (Exception e4) {}
+
+	    // Try 2.3 intent
+	    try {
+	        localIntent.setClassName("com.android.inputmethod.latin", "com.android.inputmethod.latin.InputLanguageSelection");
+	        LanguageSettingsActivity.this.startActivity(localIntent);
+	        return;
+	    } catch (Exception e5) {}
+    	
 	    // If no valid intent found, show error message
         Toast.makeText(LanguageSettingsActivity.this.getApplicationContext(), "Unable to find language settings on your device", 1).show();
     }
