@@ -8,9 +8,9 @@ Many thanks to the users who have tried this app out, provided valuable feedback
 
 How to Install
 --------------
-The easiest way to install this app is by visiting [Google Market](https://market.android.com/details?id=appinventor.ai_yakov.LanguageSettings).
+The easiest way to install this app is by visiting [Google Market](https://market.android.com/details?id=appinventor.ai_yakov.LanguageSettings) or [Amazon AppStore for Android](http://www.amazon.com/gp/product/B0071LQXCK).
 
-If your device does not have the Google Market installed (such as the case with most Kindles), you can do the following:
+If you are unable to install this app from either of those places, you can do the following to install it manually:
 
 1. Enable sideloading of third party apps as follows.
 2. On most Android devices, select the menu button from the home screen, then "Settings", "Applications".
