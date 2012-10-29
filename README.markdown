@@ -56,6 +56,8 @@ Known Issues
 ------------
 On Kindle Fire, you may need to delete an old version of this app before reinstalling an updated version.
 
+** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. We are currently looking into this.
+
 For Developers:
 ---------------
 Background information about this app can be found on [my blog](http://www.shaftek.org/blog/2011/12/03/enabling-other-languages-on-amazons-new-kindle-fire-tablet/).
