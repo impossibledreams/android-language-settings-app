@@ -56,7 +56,22 @@ Known Issues
 ------------
 On Kindle Fire, you may need to delete an old version of this app before reinstalling an updated version.
 
-** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. We are currently looking into this.
+** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. We are currently looking into this. **
+
+Instructions for Installing on Kindle Fire (second generation), rooted devices only
+-----------------------------------------------------------------------------------
+The following are instructions for installing a stock Android keyboard on a rooted Kindle Fire (second generation). Please note that WE DO NOT RECOMMEND rooting your tablet, but if it happens to be rooted, you can get multiple languages as follows - make sure to backup your device first
+
+1. Using adb or a file manager, rename **LatinIME.apk** and **LatinIME.odex** in the **/system/app** folder to **LatinIME.apk.bak** and **LatinIME.odex.bak**. If you are using adb, you may need to remount to read/write, and then remount back.
+2. Download the stock 4.0 Android keyboard from the downloads section.
+3. Install the stock keyboard using **adb install** or a file manager.
+4. Tap on the top right corner. tap on **More..**, **Language and Keyboard**, **Keyboard**.
+5. You should be able to see **Android Keyboard** selected on the list.
+6. To be safe, reboot the Kindle.
+
+To reverse the process, uninstall the APK file provided, and rename the two original files back to their regular names in the **/system/app** directory.
+
+Full credit goes to [The Android Soul](http://www.theandroidsoul.com/install-stock-android-4-0-keyboard-galaxy-s3-should-work-other-devices-well/) for writing the guide for the Galaxy S3 which was adapted for the Kindle Fire.
 
 For Developers:
 ---------------
