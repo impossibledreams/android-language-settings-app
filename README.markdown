@@ -58,7 +58,7 @@ On Kindle Fire, you may need to delete an old version of this app before reinsta
 
 This application only switches the language for the keyboard. If you want to switch the language of the user interface, here is a handy program [http://forum.xda-developers.com/showthread.php?t=1404966] available at XDA developers (we take no responsibility for it)
 
-** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. We are currently looking into this. **
+** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. Currently, there is no way to re-enable additional languages other than the stock six languages without rooting. Details can be found (on my blog)[http://www.shaftek.org/blog/2012/11/08/switching-languages-on-the-2nd-gen-kindle-fire-fire-hd/]  **
 
 Instructions for Installing on Kindle Fire (second generation), rooted devices only
 -----------------------------------------------------------------------------------
@@ -77,11 +77,14 @@ Full credit goes to [The Android Soul](http://www.theandroidsoul.com/install-sto
 
 There is also an alternate solution, if you wish to install a second keyboard along side the original one:
 
-1. Install the new keyboard APK file using regular tools.
+1. Install the new keyboard APK file using regular tools. You can find repacked versions of the stock Android keyboard online.
 2. Connect to the Kindle via "adb shell" or via a terminal app on the device.
-3. Use the "ime" command line utility to list, and enable the second keyboard.
-4. Select the new keyboard as the default with the "ime" utility.
-5. Once you do that, you can now manage keyboards using the regular Kindle keyboard settings.
+3. Type "ime list" to list available keyboards.
+4. Type "ime enable [keyboard]" to enable the new keyboard.
+4. Type "ime select [keyboard]" to select the new keyboard as the default one.
+5. Once you do that, you can now manage keyboards using the regular Kindle keyboard settings as long as you don't uninstall the new keyboard.
+
+**Please be aware that newer Kindle updates will probably wipe these methods clean**
 
 For Developers:
 ---------------
