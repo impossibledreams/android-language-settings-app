@@ -56,6 +56,8 @@ Known Issues
 ------------
 On Kindle Fire, you may need to delete an old version of this app before reinstalling an updated version.
 
+This application only switched the language for the keyboard. If you want to switch the language of the user interface, here is (a handy program)[http://forum.xda-developers.com/showthread.php?t=1404966] available at XDA developers (we take no responsibility for it)
+
 ** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. We are currently looking into this. **
 
 Instructions for Installing on Kindle Fire (second generation), rooted devices only
