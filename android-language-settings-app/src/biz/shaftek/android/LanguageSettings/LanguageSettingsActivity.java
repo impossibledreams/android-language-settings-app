@@ -6,16 +6,27 @@
 
 package biz.shaftek.android.LanguageSettings;
 
+import java.util.List;
+
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
 import appinventor.ai_yakov.LanguageSettings.R;
 
+import android.view.inputmethod.InputMethodInfo;
+import android.view.inputmethod.InputMethodManager;
+
 public class LanguageSettingsActivity extends Activity {	
-  // Main create method
+    private InputMethodManager mImm;
+    private List<InputMethodInfo> mImis;
+	
+	// Main create method
   public void onCreate(Bundle paramBundle) {
 	    super.onCreate(paramBundle);
 	    setContentView(R.layout.main);
@@ -28,6 +39,15 @@ public class LanguageSettingsActivity extends Activity {
     	// Create intent
     	Intent localIntent = new Intent("android.intent.action.VIEW");
 
+    	/*
+	    // Kindle Fire keyboards settings
+	    try {
+	        localIntent.setClassName("com.android.settings", "com.android.settings.inputmethod.InputMethodAndLanguageSettings");
+	        LanguageSettingsActivity.this.startActivity(localIntent);
+	        return;
+	    } catch (Exception e0) {}
+		*/
+    	
 	    // Try 4.1 intent
 	    try {
 	        localIntent.setClassName("com.android.settings", "com.android.settings.inputmethod.InputMethodAndSubtypeEnabler");

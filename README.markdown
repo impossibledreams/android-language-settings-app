@@ -73,6 +73,14 @@ To reverse the process, uninstall the APK file provided, and rename the two orig
 
 Full credit goes to [The Android Soul](http://www.theandroidsoul.com/install-stock-android-4-0-keyboard-galaxy-s3-should-work-other-devices-well/) for writing the guide for the Galaxy S3 which was adapted for the Kindle Fire.
 
+There is also an alternate solution, if you wish to install a second keyboard along side the original one:
+
+1. Install the new keyboard APK file using regular tools.
+2. Connect to the Kindle via "adb shell" or via a terminal app on the device.
+3. Use the "ime" command line utility to list, and enable the second keyboard.
+4. Select the new keyboard as the default with the "ime" utility.
+5. Once you do that, you can now manage keyboards using the regular Kindle keyboard settings.
+
 For Developers:
 ---------------
 Background information about this app can be found on [my blog](http://www.shaftek.org/blog/2011/12/03/enabling-other-languages-on-amazons-new-kindle-fire-tablet/).
