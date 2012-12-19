@@ -60,6 +60,14 @@ This application only switches the language for the keyboard. If you want to swi
 
 ** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. Currently, there is no way to re-enable additional languages other than the stock six languages without rooting. Details can be found (on my blog)[http://www.shaftek.org/blog/2012/11/08/switching-languages-on-the-2nd-gen-kindle-fire-fire-hd/]  **
 
+Instructions for the Kindle Fire HD 8.9 with the Swype Beta
+-----------------------------------------------------------
+According to several users, the new Kindle Fire HD 8.9 update adds a Swype keyboard.
+If you download and install the beta version of the Swype keyboard from Swype, 
+it gives you full language support. The beta site can be found here:
+
+http://beta.swype.com/
+
 Instructions for Installing on Kindle Fire (second generation), rooted devices only
 -----------------------------------------------------------------------------------
 The following are instructions for installing a stock Android keyboard on a rooted Kindle Fire (second generation). Please note that WE DO NOT RECOMMEND rooting your tablet, but if it happens to be rooted, you can get multiple languages as follows - make sure to backup your device first
