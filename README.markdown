@@ -60,6 +60,11 @@ This application only switches the language for the keyboard. If you want to swi
 
 ** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. Currently, there is no way to re-enable additional languages other than the stock six languages without rooting. Details can be found (on my blog)[http://www.shaftek.org/blog/2012/11/08/switching-languages-on-the-2nd-gen-kindle-fire-fire-hd/]  **
 
+Instructions for the Second Generation Kindle, all models
+-----------------------------------------------------------
+See next paragraph:
+
+
 Instructions for the Kindle Fire HD 8.9 with the Swype Beta
 -----------------------------------------------------------
 According to several users, the new Kindle Fire HD 8.9 update adds a Swype keyboard.
