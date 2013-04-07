@@ -62,12 +62,7 @@ This application only switches the language for the keyboard. If you want to swi
 
 Instructions for the Second Generation Kindle, all models
 -----------------------------------------------------------
-See next paragraph:
-
-
-Instructions for the Kindle Fire HD 8.9 with the Swype Beta
------------------------------------------------------------
-According to several users, the new Kindle Fire HD 8.9 update adds a Swype keyboard.
+The second generation Kindle adds a Swype keyboard.
 If you download and install the beta version of the Swype keyboard from Swype, 
 it gives you full language support. The beta site can be found here:
 
@@ -75,6 +70,9 @@ http://beta.swype.com/
 
 Instructions for Installing on Kindle Fire (second generation), rooted devices only
 -----------------------------------------------------------------------------------
+
+**ONLY USE THIS STEP IF THE SWYPE BETA DOES NOT WORK FOR YOU**
+
 The following are instructions for installing a stock Android keyboard on a rooted Kindle Fire (second generation). Please note that WE DO NOT RECOMMEND rooting your tablet, but if it happens to be rooted, you can get multiple languages as follows - make sure to backup your device first
 
 1. Using adb or a file manager, rename **LatinIME.apk** and **LatinIME.odex** in the **/system/app** folder to **LatinIME.apk.bak** and **LatinIME.odex.bak**. If you are using adb, you may need to remount to read/write, and then remount back.
