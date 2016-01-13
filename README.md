@@ -58,7 +58,7 @@ On Kindle Fire, you may need to delete an old version of this app before reinsta
 
 This application only switches the language for the keyboard. If you want to switch the language of the user interface, here is a handy program [http://forum.xda-developers.com/showthread.php?t=1404966] available at XDA developers (we take no responsibility for it)
 
-** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. Currently, there is no way to re-enable additional languages other than the stock six languages without rooting. Details can be found (on my blog)[http://www.shaftek.org/blog/2012/11/08/switching-languages-on-the-2nd-gen-kindle-fire-fire-hd/]  **
+** As of October 27th, 2012, the latest Kindle Fire (second generation) update has wiped out almost all the languages. Details can be found here: [https://github.com/shaftekbiz/android-language-settings-app/issues/4]  **
 
 Instructions for the Second Generation Kindle, all models
 -----------------------------------------------------------
@@ -99,11 +99,15 @@ There is also an alternate solution, if you wish to install a second keyboard al
 
 For Developers:
 ---------------
-Background information about this app can be found on [my blog](http://www.shaftek.org/blog/2011/12/03/enabling-other-languages-on-amazons-new-kindle-fire-tablet/).
+One of the interesting aspects of the new Kindle Fire is how much Amazon had customized or simply overrode the default UI, including some of the settings pages. One issue that has come up recently is how to enable ability to use languages other than English. A fellow Kindle Fire in Germany, named Gero Zahn, managed to figure out how to do that by using two separate apps which trick the Kindle Fire to opening the input language settings UI page which while hidden still remains on the device. His approach is described in detail in the following blog post and the credit for discovering this goes to him:
 
-The original version of this app was developed via Google's AppInventor package, as of v1.2, this is now a native Android App. The easiest way to recompile and try this app out is to use Eclipse with Android plugins.
+[http://blog.gerozahn.de/2011/11/kindle-fire-keyboard-layouts-solved/]
 
-Feel free to submit requests for features or patches.
+I was looking for a simpler way to do this and came up with a very simple Android app using Google’s AppInventor that does just that – gives you access to the input language settings. This approach does not require installing outside applications other than this app itself. For the technically inclined, here is a short explanation of what is happening:
+
+Actions on Android that cross application boundaries are triggering using something called “Intents“. There are two of those that trigger language settings, of which the first (com.android.settings.LanguageSettings) has been customized by Amazon to show their own keyboard options. The second is the one that actually triggers the language selection menu and is called “com.android.inputmethod.latin.InputLanguageSelection“. The action for it is called “android.intent.action.VIEW“.
+
+The original version of this app was developed via Google's AppInventor package, as of v1.2, this is now a native Android App. The easiest way to recompile and try this app out is to use Eclipse with Android plugins. Feel free to submit requests for features or patches.
 
 Copyright Information
 ---------------------
